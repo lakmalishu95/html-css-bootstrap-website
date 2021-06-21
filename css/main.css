@@ -1,0 +1,67 @@
+.body{
+
+	background-color:#d4d4d4;
+}
+
+nav {
+	background-color: #717473;
+	height: 80px;
+}
+.container h1,p{
+	color: black;
+	text-align: center;
+
+}
+
+@media only screen and (max-width: 550px) {
+    .container h1 {
+   	color: blue;
+   	font-size: 29px;
+}
+   .container-fluid ,p {
+   	color: blue;
+   	font-size: 10px;
+}
+
+.container p {
+   	color: red;
+   	font-size: 12px;
+}
+.container-fluid .img1 img{
+	width: 250px;
+	height: 200px;
+	display: flex;
+	padding-left: 40px; 
+}
+
+.container-fluid button {
+	width: 80px;
+	height: 20px;
+	font-size: 10px;
+	text-align: center;
+	padding: 1px;
+}
+
+}
+
+
+.container-fluid h3,p{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.container-fluid .btn1{
+	display: flex;
+	justify-content: center;
+	align-items: center;  
+}
+
+.container form{
+		display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+
